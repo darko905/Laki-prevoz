@@ -13,7 +13,7 @@
   --subtitle-color: hsl(253, 13%, 13%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(0, 0%, 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color: hsl(var(--hue), var(--sat), 94%);
   --container-color: #fff;
 
   /*Font*/

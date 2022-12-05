@@ -70,7 +70,7 @@
     .nav__menu{
         position: fixed;
         background-color: var(--container-color);
-        width: 80%;
+        width: 70%;
         height: 100%;
         top: 0;
         right: -100%;
