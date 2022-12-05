@@ -10,6 +10,7 @@ const Home = () => {
                 <div className='home__content'>
                     <Data/>
                     <Social/>
+                    
                 </div>
             </div>
         </section>
