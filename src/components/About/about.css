@@ -16,3 +16,25 @@
     margin-bottom: var(--mb-2);
     text-align: justify;
 }
+@media screen and (max-width: 992px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+        text-align: center;
+    }
+    .about__title{
+        margin-bottom: var(--mb-2);
+    }
+
+    .about__descritpion {
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__descritpion {
+        padding: 1rem;
+    }
+}
+

@@ -8,6 +8,7 @@ const About = () => {
             <h2 className='section__title'>O nama</h2>
             <span className='section__subtitle'>Nekoliko informacija o nama</span>
             <div className='about__container container grid'>
+                <img src={Image} className="about__img"/>
                 <div className='about__data'>
                     <h3 className='about__title'>Prevoz Robe i Stvari</h3>
                     <p className='about__descritpion'>
@@ -22,7 +23,7 @@ const About = () => {
                         </button>
                     </a>
                 </div>
-                <img src={Image} className="about__img"/>
+                
             </div>
         </section>
     )
