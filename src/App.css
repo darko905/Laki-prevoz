@@ -9,17 +9,17 @@
   --hue: 0;
   --sat: 0%;
   /* --title-color: hsl(var(--hue), var(--sat), 20%); */
-  --title-color: hsl(90, 42%, 43%);
-  --subtitle-color: hsl(253, 13%, 13%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(0, 0%, 46%);
-  --body-color: hsl(var(--hue), var(--sat), 94%);
+  --title-color: hsl(3, 90%, 65%);
+  --subtitle-color: hsl(252, 8%, 87%);;
+  --title-color-dark: hsl(270, 1%, 65%);
+  --text-color: hsl(252, 8%, 87%);
+  --body-color: hsl(0, 0%, 16%);
   --container-color: #fff;
 
   /*Font*/
   --body-font: "Poppins", sans-serif;
 
-  --big-font-size: 3.5rem;
+  --big-font-size: 3rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;

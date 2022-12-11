@@ -15,7 +15,10 @@ const About = () => {
                         Više od deset godina iskustva u kombi-prevozu,
                         hiljade zadovoljnih klijenata su naša preporuka. 
                         Profesionalni pristup svakom klijentu je ono 
-                        što nas izdvaja od drugih.
+                        što nas izdvaja od drugih. U svakom poslu najvažnije
+                        je steći poverenje u onoga kome tražite uslugu. 
+                        Dugogodišnje iskustvo u bavljenju ovim poslom 
+                        nas postavlja na vrh liste prevoznika kojima možete verovati.
                     </p>
                     <a>
                         <button className='button button--flex'>

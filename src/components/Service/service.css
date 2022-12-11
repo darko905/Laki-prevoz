@@ -26,6 +26,7 @@
 .service__description{
     text-align: center;
     font-size: var(--normal-font-size);
+    color: var(--body-color);
 }
 
 @media screen and (max-width: 992px) {

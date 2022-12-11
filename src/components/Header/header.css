@@ -5,7 +5,7 @@
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 2px -2px rgba(230, 230, 230, 0.576);
 }
 
 .nav{
@@ -19,7 +19,7 @@
 .nav__logo,
 .nav__toggle{
     color: var(--subtitle-color);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-semi-bold);
 }
 
 .nav__list{
@@ -65,7 +65,7 @@
         top: initial;
     }
     .nav{
-        height: 3rem;
+        height: 5rem;
     }
     .nav__menu{
         position: fixed;
