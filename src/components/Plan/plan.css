@@ -112,12 +112,10 @@
     padding: 30px 90px 30px 30px;
     background: var(--title-color);
     position: relative;
-    border-radius: 0 500px 500px 0;
 }
 
 .container__plan.right .content {
     padding: 30px 30px 30px 90px;
-    border-radius: 500px 0 0 500px;
 }
 
 .container__plan .content h2 {
@@ -176,6 +174,5 @@
     .container__plan.left .content,
     .container__plan.right .content {
         padding: 30px 30px 30px 90px;
-        border-radius: 500px 0 0 500px;
     }
 }
