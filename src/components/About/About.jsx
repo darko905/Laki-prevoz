@@ -4,7 +4,7 @@ import Image from '../../Assets/Kombi.png'
 
 const About = () => {
     return (
-        <section className='section about'>
+        <section className='section about' id='about'>
             <h2 className='section__title'>O nama</h2>
             <span className='section__subtitle'>Nekoliko informacija o nama</span>
             <div className='about__container container grid'>

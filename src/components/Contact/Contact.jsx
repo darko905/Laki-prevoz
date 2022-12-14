@@ -3,12 +3,12 @@ import './contact.css'
 
 const Contact = () => {
     return (
-        <section className='section contact'>
+        <section className='section contact' id='contact'>
             <h2 className='section__title'>Kontakt</h2>
             <span className='section__subtitle'>Vaša pitanja, utiske o saradnji ili nešto drugo možete poslati ovde</span>
             <div className='contact__container container grid'>
                 <div className='contact__content'>
-                    <h3 className='contact__title'>Ostanimo u vezi!</h3>
+                    <h3 className='contact__title'>Ostanimo u kontaktu!</h3>
 
                     <form className='contact__form'>
                         <div className='contact__form-div'>
@@ -17,7 +17,7 @@ const Contact = () => {
                             type="text" 
                             name='name' 
                             className='contact__form-input' 
-                            placeholder='Unesite vase iime'/>
+                            placeholder='Unesite vase ime'/>
                         </div>
                         <div className='contact__form-div'>
                             <label className='contact__form-tag'>Mail</label>
@@ -37,7 +37,7 @@ const Contact = () => {
                             placeholder='Ostavite vasu poruku'
                             ></textarea>
                         </div>
-                        <button className='button button-flex'>Posalji<i className="uil uil-message"></i></button>
+                        <button className='button button-flex'>Posalji</button>
 
                     </form>
                 </div>

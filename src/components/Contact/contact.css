@@ -9,26 +9,29 @@
     text-align: center;
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: var(--mb-2-5);
 }
 
 .contact__info {
     display: grid;
     row-gap: 1rem;
     grid-template-columns: 300px;
+    background-color: var(--title-color);
+    border-radius: 0.75rem;
+}
+.contact__card:nth-child(1),
+.contact__card:nth-child(2){
+    border-bottom: 1px solid var(--text-color);
 }
 
 .contact__card {
-    background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    border-radius: 0.75rem;
+    padding: 1.15rem;
     text-align: center;
 }
 
 .contact__card-icon {
     font-size: 2rem;
-    color: var(--title-color);
+    color: var(--body-color);
     margin-bottom: var(--mb-0-25);
 }
 
@@ -71,7 +74,7 @@
 
 .contact__form-div {
     position: relative;
-    margin-bottom: var(--mb-2);
+    margin-bottom: 3rem;
     height: 4rem;
 }
 
@@ -82,20 +85,18 @@
     width: 100%;
     height: 100%;
     border: 2ps solid rgba(0, 0, 0, 0.3);
-    background: none;
     color: var(--text-color);
     outline: none;
-    border-radius: 0.75rem;
     padding: 1.5rem;
     z-index: 1;
+    background-color: var(--text-color);
 }
 
 .contact__form-tag {
     position: absolute;
-    top: -0.75rem;
+    top: -1.75rem;
     left: 1.25rem;
     font-size: var(--small-font-size);
-    padding: 0.25rem;
     background: var(--body-color);
     z-index: 10;
 }

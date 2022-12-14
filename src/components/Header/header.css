@@ -54,7 +54,7 @@
     content: '';
     position: absolute;
     bottom: -0.55rem;
-    /* left: 30%; */
+    left: 0;
     width: 2rem;
     height: 0.2rem;
     background-color: var(--title-color);
@@ -69,7 +69,7 @@
     }
     .nav__menu{
         position: fixed;
-        background-color: var(--container-color);
+        background-color: var(--text-color);
         width: 70%;
         height: 100%;
         top: 0;
